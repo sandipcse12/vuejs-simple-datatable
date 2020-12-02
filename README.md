@@ -14,7 +14,7 @@ If you want to achieve balance with the force and want a simple but flexible tab
   - Time formating
 
 ### Demo
-![alt text](demo.png "Title")
+![alt text](https://raw.githubusercontent.com/sandipcse12/vuejs-simple-datatable/main/demo.png "Title")
 
 
 ### Installation
@@ -92,7 +92,7 @@ take: 10
 Prepare your api data by using this payload. use sortedKey and sortedType to short your data. implement search to filter your data. take is use to get total data  and skip is used to ignore first selected data. if skip = 20 and take = 10 then you need to return data from 21-30.
 
 Return total data count for implementing pagination. API response like
-![alt text](response.png "Title")
+![alt text](https://raw.githubusercontent.com/sandipcse12/vuejs-simple-datatable/main/response.png "Title")
 
 Simple laravel api implementation. you can use your preferred language or framework.
 ```

@@ -1,0 +1,38 @@
+{
+  "private": false,
+  "name": "vuejs-simple-datatable",
+  "version": "1.0.0",
+  "description": "Creating vuejs simple datatable came out of necessity while developing a web application for a growing startup.",
+  "main": ".src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandipcse12/vuejs-simple-datatable.git"
+  },
+  "keywords": [
+    "vuejs",
+    "datatable",
+    "pagination",
+    "sorting",
+    "searching",
+    "custom",
+    "component",
+    "currency",
+    "formation",
+    "date",
+    "formation."
+  ],
+  "author": "Sandip Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sandipcse12/vuejs-simple-datatable/issues"
+  },
+  "homepage": "https://github.com/sandipcse12/vuejs-simple-datatable#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "format-currency": "^1.0.0",
+    "moment": "^2.29.1"
+  }
+}

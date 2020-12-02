@@ -2,8 +2,9 @@
 
 Creating vuejs simple datatable came out of necessity while developing a web application for a growing startup. I discovered that while there are some great table libraries out there, some required heavy customization, were missing out of the box features such as built in sorting and pagination.
 
-If you want to achieve balance with the force and want a simple but flexible table library give React Data Table Component a chance. If you require an Excel clone or heavy "enterprise" capabilities, then this is not the React table library you are looking for
-# Key Features!
+If you want to achieve balance with the force and want a simple but flexible table library give vuejs simple datatable a chance. 
+
+### Key Features!
 
   - Sorting
   - Searching
@@ -11,6 +12,9 @@ If you want to achieve balance with the force and want a simple but flexible tab
   - Custom component implementation.
   - Currency formating
   - Time formating
+
+### Demo
+![alt text](demo.png "Title")
 
 
 ### Installation

@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "vuejs-simple-datatable",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Creating vuejs simple datatable came out of necessity while developing a web application for a growing startup.",
   "main": ".src/index.js",
   "scripts": {

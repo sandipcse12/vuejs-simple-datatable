@@ -20,14 +20,14 @@ If you want to achieve balance with the force and want a simple but flexible tab
 ### Installation
 Install vuejs simple datatable using node package manager (npm). Go to your vue project root directory and run
 ```sh
-$ npm install vuejs-simple-datatable
+npm install vuejs-simple-datatable
 ```
 
 ### Usages
 In your main.js, or a similar entry point for your app:
 ```sh
-$ import VuejsSimpleDatatable from "vuejs-simple-datatable";
-$ Vue.use(VuejsSimpleDatatable);
+import VuejsSimpleDatatable from "vuejs-simple-datatable";
+Vue.use(VuejsSimpleDatatable);
 ```
 Now, the <vuejs-simple-datatable/> should be able in any of your .vue files. This component takes props "options" from parent component about table configuration.
 

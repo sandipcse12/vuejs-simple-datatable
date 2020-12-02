@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="datatable">
         <div class="search">
             <input type="text" style="float:right" placeholder="Search here" id="search" v-on:keyup="search()"
                    v-model="requestParams.search"/>
@@ -59,7 +59,9 @@
                 </tr>
             </template>
             <template v-else>
-                No data found.
+                <div style="text-align: center">
+                    No data found.
+                </div>
             </template>
             </tbody>
         </table>
@@ -175,32 +177,29 @@
         }
     }
 </script>
-<style lang="scss" scoped>
-    input[type=text] {
-        // width: 100%;
+<style>
+    .datatable input[type=text] {
         padding: 8px 12px;
         margin: 8px 0;
         border: 1px solid #f1f1f1;
         box-sizing: border-box;
     }
 
-    select {
-        // width: 100%;
+    .datatable select {
         padding: 5px 12px;
         margin: 8px 0;
-        //border: 1px solid #f1f1f1;
         box-sizing: border-box;
         outline: none !important;
         border: 1px solid #dddddd;
         background: #fff;
     }
 
-    input:focus {
+    .datatable input:focus {
         border: 1px solid #dddddd !important;
         outline: none;
     }
 
-    select:focus {
+    .datatable select:focus {
         outline: none !important;
         border: 1px solid #dddddd;
         background: #fff;
@@ -228,13 +227,13 @@
         background: #f1f1f1;
     }
 
-    .pagination {
+    .datatable .pagination {
         display: inline-block;
         margin-top: 12px;
         float: right;
     }
 
-    .pagination a {
+    .datatable .pagination a {
         color: black;
         float: left;
         padding: 8px 16px;
@@ -243,17 +242,15 @@
         border: 1px solid #ddd;
     }
 
-    .pagination a.active {
+    .datatable .pagination a.active {
         background-color: #f1f1f1;
-        //color: white;
-        // border: 1px solid #4CAF50;
     }
 
-    .pagination a:hover:not(.active) {
+    .datatable .pagination a:hover:not(.active) {
         background-color: #ddd;
     }
 
-    .isDisabled {
+    .datatable .isDisabled {
         cursor: not-allowed;
         opacity: 0.5;
     }

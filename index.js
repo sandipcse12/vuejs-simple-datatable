@@ -1,4 +1,4 @@
-import VuejsSimpleDatatable from "./VuejsSimpleDatatable.vue";
+import VuejsSimpleDatatable from "./src/VuejsSimpleDatatable.vue";
 
 export default {
     install(Vue, options) {

@@ -2,7 +2,7 @@
     <div class="datatable">
         <div class="search">
             <input type="text" style="float:right" placeholder="Search here" id="search" v-on:keyup="search()"
-                   v-model="requestParams.search"/>
+                   v-model="requestParams.search" v-if="options.search ?? true"/>
             Show <select class="form-control" v-model="showDataAmount" v-on:change="selectedDataAmount" id="rows">
             <option value="10">10</option>
             <option value="20">20</option>
